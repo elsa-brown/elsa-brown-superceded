@@ -1,0 +1,259 @@
+@media screen and ( max-width: 500px ){
+  #more {
+    margin: 0 -30px 0 0;
+  }
+
+  #before {
+  	margin: 0 0 0 -30px;
+  }
+}
+
+body {
+	background: black;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 16px;
+	color: white;
+}
+
+body a {
+	text-decoration: none;
+	color: white;
+}
+
+/*index page video*/
+.video {
+	width: 560px;
+	height: 315px;
+	left: 50%;
+	top: 180px;
+	position: absolute;
+	margin: -50px 0 0 -280px;
+	float: none;
+}
+
+/*more and before links*/
+#before {
+	width: 50px;
+	top: 275px;
+	left: 15%;
+	text-align: right;
+	position: absolute;
+}
+
+#before a:hover {
+	color: black;
+}
+
+#more {
+	width: 50px;
+	top: 275px;
+	right: 15%;
+	position: absolute;
+	text-align: left;
+}
+
+#more a:hover {
+	color: blue;
+}
+
+#contact {
+	width: 50px;
+	top: 350px;
+	left: 15%;
+	position: absolute;
+}
+
+#contact a:visted {
+	color: green;
+}
+
+#contact a:hover {
+	color: green;
+}
+
+#more2 {
+	width: 50px;
+	top: 350px;
+	right: 15%;
+	position: absolute;
+}
+
+#more2 a:hover {
+	color: black;
+}
+
+
+
+/*before page full-screen video HTML5 element*/
+video::-webkit-media-controls {
+		display:none !important;
+}
+#v {
+	z-index: 1;
+}
+
+/*before page invisible link overlays*/
+#overlay1 {
+	position: absolute;
+	z-index: 23456789;
+	right: 100px;
+	top: 500px;
+	background: rgba(255, 30, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay2 {
+	position: absolute;
+	z-index: 23456789;
+	left: 150px;
+	top: 200px;
+	background: rgba(255, 30, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay3 {
+	position: absolute;
+	z-index: 23456789;
+	top: 350px;
+	right: 700px;
+	background: rgba(255, 30, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay4 {
+	position: absolute;
+	z-index: 23456789;
+	right: 60px;
+	top: 60px;
+	background: rgba(255, 30, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay5 {
+	position: absolute;
+	z-index: 23456789;
+	right: 250px;
+	top: 300px;
+	background: rgba(255, 30, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay6 {
+	position: absolute;
+	z-index: 23456789;
+	top: 120px;
+	left: 420px;
+	background: rgba(255, 255, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay7 {
+	position: absolute;
+	z-index: 23456789;
+	bottom: 120px;
+	left: 80px;
+	background: rgba(255, 255, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay8 {
+	position: absolute;
+	z-index: 23456789;
+	top: 50px;
+	left: 80px;
+	background: rgba(255, 255, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay9 {
+	position: absolute;
+	z-index: 23456789;
+	top: 250px;
+	left: 550px;
+	background: rgba(255, 255, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+#overlay10 {
+	position: absolute;
+	z-index: 23456789;
+	bottom: 150px;
+	left: 600px;
+	background: rgba(255, 255, 100, 0);
+	width: 100px;
+	height: 100px;
+}
+
+/*more page - projects */
+.about {
+	font-family: Amaranth; 
+	font-size: 14px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.about a {
+	font-family: Amaranth;
+	text-decoration: none;
+	color: white;
+}
+
+.about a:hover {
+    text-decoration: none;
+}
+
+#RoadPoems a:visited {
+	color: #B280B2
+}
+
+#RoadPoems a:hover {
+	color: #ffffcc;
+}
+
+#RentGame a:visited {
+	color: #3300CC;
+}
+
+#RentGame a:hover {
+	color: #0000ff;
+}
+
+#BeatPoet2015 a:visited {
+	color: #B24C66;
+}
+
+#BeatPoet2015 a:hover {
+	color: #ff9933;
+}
+
+#social {
+	font-family: Andale Mono;
+	font-weight: bold;
+	font-style: bold;
+	color: rgb(30,30,30);
+}
+
+#twitter a:visited {
+	color: #B2004C;
+}
+
+#twitter a:hover {
+	color: #ff0000;
+}
+
+#instagram a:visited {
+	color: #B20080;
+}
+
+#instagram a:hover {
+	color: #ff0066;
+}
