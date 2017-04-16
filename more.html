@@ -9,7 +9,7 @@
 	</head>
 
 	<body>
-		<div class="about">
+		<div class="about" style="display: none">
 			<p id="RoadPoems"><a href="http://roadpoems.elsa-brown.com" target="_blank">Road Poems</a></p>
 			<p id="RentGame"><a href="http://rentgame.elsa-brown.com" target="_blank">RENT GAME</a></p>
 			<p id="BeatPoet2015"><a href="http://beatpoet2015.blogspot.com" target="_blank">beatpoet2015.blogspot.com</a></p>
@@ -17,19 +17,18 @@
 			<p id="twitter"><a href="https://twitter.com/elsambrown" target="_blank">@elsambrown</a></p>
 			<p id="instagram"><a href="https://www.instagram.com/els_a_/" target="_blank">@elsa_a_</a></p>
 		</div>
-			<div id="contact" style="display: none">
-				<a href="mailto:elsambrown@gmail.com">Contact</a>
-			</div>
-			<div id="more2" style="display: none">
-				<a href="http://elsa-brown.com">More</a>
-			</div>
+		<div id="contact" style="display: none">
+			<a href="mailto:elsambrown@gmail.com">Contact</a>
+		</div>
+		<div id="more2" style="display: none">
+			<a href="http://elsa-brown.com">More</a>
+		</div>
 
 	<script>
 
 	$(function(){
 
-    // $('#more2').hide();
-    // $('#contact').hide();
+    $('.about').fadeIn(500);
 
     setTimeout(function(){
         $('#more2').fadeIn(2500);
@@ -37,7 +36,7 @@
 
     setTimeout(function(){
         $('#contact').fadeIn(2500);
-    }, 1300);
+    }, 800);
 
 	});
 
