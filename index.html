@@ -15,10 +15,10 @@
 			<source src="./public/index.mp4" type="video/mp4">
 			</video>
 	</div>
-	<div id="before">
+	<div id="before" style="display: none">
 		<a href="http://before.elsa-brown.com">Before</a>
 	</div>
-	<div id="more">
+	<div id="more" style="display: none">
 		<a href="http://more.elsa-brown.com" target="_blank">More</a>
 	</div>
 </body>
@@ -27,8 +27,8 @@
 
 	$(function(){
 
-    $('#more').hide();
-    $('#before').hide();
+    // $('#more').hide();
+    // $('#before').hide();
 
     setTimeout(function(){
         $('#more').fadeIn(2500);
