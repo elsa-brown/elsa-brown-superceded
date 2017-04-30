@@ -29,15 +29,15 @@
 
     setTimeout(function(){
         $('#more').fadeIn(2500);
-    }, 10);
+    }, 0);
 
     setTimeout(function(){
         $('#before').fadeIn(2500);
-    }, 1500);
+    }, 500);
 
     $('.video').click(function() {
-    	var video = $("#video").get(0);
-    	video.paused ? video.play() : video.pause();
+      var video = $('#video').get(0);
+      video.paused ? video.play() : video.pause();
     })
 
 	});
