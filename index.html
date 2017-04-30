@@ -11,9 +11,7 @@
 
 <body>
 	<div class="video">
-		<video id="video" width="560" height="315" loop="true" autoplay>
-			<source src="./public/index.mp4" type="video/mp4">
-			</video>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/iddPa5K-vgk?autoplay=1" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div id="before" style="display: none">
 		<a href="http://before.elsa-brown.com">Before</a>
@@ -29,11 +27,11 @@
 
     setTimeout(function(){
         $('#more').fadeIn(2500);
-    }, 0);
+    }, 4000);
 
     setTimeout(function(){
         $('#before').fadeIn(2500);
-    }, 500);
+    }, 6000);
 
     $('.video').click(function() {
       var video = $('#video').get(0);
