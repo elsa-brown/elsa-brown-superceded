@@ -1,18 +1,22 @@
 @media screen and ( max-width: 500px ){
   #more {
-    margin: 0 -30px 0 0;
+    margin: 0 -40px 0 0;
   }
 
   #before {
-  	margin: 0 0 0 -30px;
+  	margin: 0 0 0 -40px;
+  }
+
+  #key {
+    margin-right: 20px;
   }
 }
 
 body {
 	background: black;
-	font-family: 'Nothing You Could Do', cursive;
-	font-size: 16px;
-	color: white;
+  font-family: Amaranth;
+	font-size: 12px;
+  color: white;
 }
 
 body a {
@@ -32,6 +36,18 @@ body a {
 }
 
 /*more and before links*/
+#key {
+  font-size: 12px;
+	width: 2px;
+	right: 3%;
+	bottom: 2%;
+	position: absolute;
+	-webkit-animation-name: flicker;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
 #before {
 	width: 50px;
 	top: 275px;
@@ -219,6 +235,14 @@ video::-webkit-media-controls {
 	color: #ffffcc;
 }
 
+#music-box a:visited {
+  color: green;
+}
+
+#music-box a:hover {
+  color: #6CFF00;
+}
+
 #RentGame a:visited {
 	color: #3300CC;
 }
@@ -256,4 +280,98 @@ video::-webkit-media-controls {
 
 #instagram a:hover {
 	color: #ff0066;
+}
+
+/*flicker animations source: https://gist.github.com/oddlyzen/1229700*/
+@-webkit-keyframes flicker {
+  from {
+    opacity: 0.5;
+  }
+  4% {
+    opacity: 0.5;
+  }
+  6% {
+    opacity: 0.45;
+  }
+  8% {
+    opacity: 0.55;
+  }
+  10% {
+    opacity: 0.45;
+  }
+  11% {
+    opacity: 0.5;
+  }
+  12% {
+    opacity: 0.65;
+  }
+  14% {
+    opacity: 0.55;
+  }
+  16% {
+    opacity: 0.70;
+  }
+  17% {
+    opacity: 0.55;
+  }
+  19% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  24% {
+    opacity: 0.5;
+  }
+  26% {
+    opacity: 0.69;
+  }
+  28% {
+    opacity: 0.5;
+  }
+  38% {
+    opacity: 0.45;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  42% {
+    opacity: 0.6;
+  }
+  44% {
+    opacity: 0.5;
+  }
+  46% {
+    opacity: 0.5;
+  }
+  56% {
+    opacity: 0.5;
+  }
+  58% {
+    opacity: 0.75;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  68% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: .6; /*peak*/
+  }
+  72% {
+    opacity: 0.5;
+  }
+  93% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: .6; /*peak*/
+  }
+  97% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0.5;
+  }
 }
